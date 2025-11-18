@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# ML Models (too large for Git - train locally)
+models/*.pkl
+models/*.json
+!models/README.md
+!models/.gitkeep
+
+# Cache & Logs
+*.log
+ml_cache.json
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Test Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.bak
+*.tmp
+.directory
